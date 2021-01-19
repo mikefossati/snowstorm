@@ -7,7 +7,7 @@
 
 	<groupId>org.snomed</groupId>
 	<artifactId>snowstorm</artifactId>
-	<version>5.1.0</version>
+	<version>5.1.0.mmpatch</version>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -394,15 +394,12 @@
 	</pluginRepositories>
 	<distributionManagement>
 		<repository>
-			<id>ihtsdo-public-nexus</id>
-			<name>IHTSDO Public Nexus Releases</name>
-			<url>https://nexus3.ihtsdotools.org/repository/maven-releases/</url>
+			<id>releases</id>
+			<url>https://nexus.m-2.md/nexus/content/repositories/releases</url>
 		</repository>
 		<snapshotRepository>
-			<id>ihtsdo-public-nexus</id>
-			<name>IHTSDO Public Nexus Snapshots</name>
-			<url>https://nexus3.ihtsdotools.org/repository/maven-snapshots/</url>
+			<id>snapshots</id>
+			<url>https://nexus.m-2.md/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
-
 </project>
